@@ -110,6 +110,11 @@
                     <target>${javac.target}</target>
                 </configuration>
             </plugin>
+            <plugin>
+        <groupId>org.sonarsource.scanner.maven</groupId>
+        <artifactId>sonar-maven-plugin</artifactId>
+        <version>10.0.0.68432</version>
+      </plugin>
         </plugins>
         <finalName>${project.name}</finalName>
     </build>
